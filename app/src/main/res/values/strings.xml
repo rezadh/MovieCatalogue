@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="title">Title</string>
+    <string name="release_date">release date</string>
+    <string name="genre">genre</string>
+    <string name="overview">overview</string>
+    <string name="director">director</string>
+    <string name="movie">Movie</string>
+    <string name="movietv">Movie Tv</string>
+    <string name="API_KEY">13e37e4addbd7c9ab9faff42ec24895a</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

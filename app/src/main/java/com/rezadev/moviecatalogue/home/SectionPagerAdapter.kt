@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.rezadev.moviecatalogue.R
-import com.rezadev.moviecatalogue.movie.MovieFragment
-import com.rezadev.moviecatalogue.movietv.MovieTvFragment
+import com.rezadev.moviecatalogue.ui.movie.MovieFragment
+import com.rezadev.moviecatalogue.ui.movietv.MovieTvFragment
 
 class SectionPagerAdapter(private val mContext: Context, fm: FragmentManager) : FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
@@ -26,6 +26,6 @@ class SectionPagerAdapter(private val mContext: Context, fm: FragmentManager) : 
     override fun getPageTitle(position: Int): CharSequence? = mContext.resources.getString(
         TAB_TITLES[position])
 
-    override fun getCount(): Int = TAB_TITLES.size
+    override fun getCount(): Int = 2
 
 }
